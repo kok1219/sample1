@@ -1,0 +1,13 @@
+header {
+  width: 1279px;
+  height: 130px;
+  background-color: skyblue;
+}
+
+div#img {
+  float: left;
+}
+
+header ul {
+  float: right;
+}

@@ -1,13 +1,115 @@
+@charset "UTF-8";
+
+/* ********************************************
+// --- リセット ---
+// ※ブラウザのデフォルトCSSをリセット
+// ***************************************** */
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-size: 16px;
+}
+body {
+  font-family: Verdana, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+header, footer, nav, menu, article, aside, section, details, figcaption, figure{
+  display: block;
+}
+ul, ol {
+  list-style: none;
+}
+table {
+  border-collapse: collapse;
+}
+img {
+  vertical-align: bottom;
+}
+a img {
+  border: none;
+}
+strong {
+  font-weight: normal;
+}
+i{
+  font-style: normal;
+}
+
+/*================
+ここから記述
+===================*/
+
+
+/*================
+ヘッダー
+==================*/
+
 header {
   width: 1279px;
   height: 130px;
-  background-color: skyblue;
+
 }
 
-div#img {
+.header-logo img {
+  margin-top: 35px;
+}
+
+.logo1 {
   float: left;
+  margin-right: 70px;
 }
 
-header ul {
+.logo2 {
+  margin-right: 0;
+}
+
+.logo3 {
   float: right;
+  margin-bottom: 0px;
+}
+
+.header-nav {
+  margin: 0px;
+}
+
+.header-nav ul {
+  float: right;
+  font-weight: bold;
+}
+
+.header-nav ul li {
+  float: left;
+  margin-right: 30px;
+  font-size: 13px;
+}
+
+
+
+/*================
+サブヘッダー
+===================*/
+div#headersub {
+  height: 35px;
+  background-color:rgb(31, 117, 209);
+}
+
+div#headersub ul {
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+div#headersub ul li {
+  float: left
+}
+
+div#headersub ul li a {
+  text-decoration: none;
+  color: white;
+  padding-right: 20px;
+  text-align: center;
 }

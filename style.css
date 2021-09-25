@@ -53,13 +53,15 @@ header {
 
 }
 
-.header-logo img {
-  margin-top: 35px;
+.header-logo {
+  margin:0 auto;
+  padding-top: 35px;
 }
 
 .logo1 {
   float: left;
   margin-right: 70px;
+
 }
 
 .logo2 {
@@ -68,12 +70,8 @@ header {
 
 .logo3 {
   float: right;
-  margin-bottom: 0px;
 }
 
-.header-nav {
-  margin: 0px;
-}
 
 .header-nav ul {
   float: right;
@@ -85,7 +83,6 @@ header {
   margin-right: 30px;
   font-size: 13px;
 }
-
 
 
 /*================
@@ -110,6 +107,5 @@ div#headersub ul li {
 div#headersub ul li a {
   text-decoration: none;
   color: white;
-  padding-right: 20px;
-  text-align: center;
+  padding-right: 45px;
 }

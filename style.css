@@ -48,7 +48,7 @@ i{
 ==================*/
 
 header {
-  width: 1279px;
+  width: 1265px;
   height: 130px;
 
 }
@@ -61,7 +61,6 @@ header {
 .logo1 {
   float: left;
   margin-right: 70px;
-
 }
 
 .logo2 {
@@ -108,4 +107,42 @@ div#headersub ul li a {
   text-decoration: none;
   color: white;
   padding-right: 45px;
+}
+
+/*================
+トップロゴ
+===================*/
+
+
+/*================
+コロナメッセ
+===================*/
+div#coronabox {
+  height: 600px;
+  width: 1265px;
+  margin:30px 0 0 127px;
+
+}
+
+div#coronabox p {
+  line-height: 40px;
+}
+
+div#coronabox p span {
+  font-weight: bold;
+}
+
+div#coronabox h1 {
+  margin-bottom: 25px;
+}
+
+div#coronabox ul{
+  margin: 25px 0 25px 0;
+  list-style: disc;
+}
+
+div#coronabox ul li {
+  font-weight: bold;
+  line-height: 30px;
+
 }
